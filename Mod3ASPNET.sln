@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35208.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mod3ASPNET", "Mod3ASPNET.csproj", "{B0ADB931-6E3D-4960-BC54-151CD3219213}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0ADB931-6E3D-4960-BC54-151CD3219213}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0ADB931-6E3D-4960-BC54-151CD3219213}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0ADB931-6E3D-4960-BC54-151CD3219213}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0ADB931-6E3D-4960-BC54-151CD3219213}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E848CF13-0D9D-4C73-A07D-7B02BED07BA9}
+	EndGlobalSection
+EndGlobal

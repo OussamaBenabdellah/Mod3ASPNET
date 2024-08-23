@@ -49,7 +49,7 @@ if (app.Environment.IsDevelopment())
         {
             var url = $"/swagger/{version.GroupName}/swagger.json";
             conf.SwaggerEndpoint(url,  version.GroupName);
-        }
+}
     });
 }
 #endregion
@@ -78,12 +78,12 @@ app.MapPost("/file", async (
 //avec la nouvel version 
 app.MapPost("/formfile", async (IFormFile file, HttpContext httpContext) =>
 {
-
+    
     using var memoryStream = new MemoryStream();
     await file.CopyToAsync(memoryStream);
     memoryStream.Seek(0, SeekOrigin.Begin);
     File.WriteAllBytes(file.FileName, memoryStream.ToArray());
-
+    
     return Results.Ok();
 })
     .DisableAntiforgery()
